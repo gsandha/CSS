@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            /* clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%); */
+            clip-path: circle(33.7% at 94% 0);
+            transition: all 2s;
+        }
+        img:hover{
+            clip-path: circle(137.0% at 94% 0);
+        }
+    </style>
+</head>
+<body>
+    <!-- clip-path is a CSS property that allows you to create custom shapes by clipping an element to a specific geometric shape or path. This can be used to create unique and creative visual effects on web pages.
+
+The clip-path property takes a value that specifies the shape or path to use as a clipping mask. There are several ways to specify the clipping mask, including:
+
+Basic shapes: You can use keywords such as circle, ellipse, inset, or polygon to define simple shapes as the clipping mask.
+
+SVG path: You can use an SVG path to define a complex shape as the clipping mask.
+
+Image mask: You can use an image as the clipping mask by using the url() function. -->
+    <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2hvZXN8ZW58MHx8MHx8&w=1000&q=80    " alt="">
+</body>
+</html>
